@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+include_once 'vendor/autoload.php';
+
+define('ROOT_DIR', __DIR__);
+define('SRC', ROOT_DIR . '\\src');
+
+$console = new App\Console();
+$executeState = $console->execute($argv);
+$executeState === true ? exit(0) : exit(1);

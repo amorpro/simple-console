@@ -1,0 +1,15 @@
+{
+    "name": "amorpro/simple-console",
+    "type": "standard",
+    "description": "Simple console skeleton for prototyping",
+    "homepage": "https://github.com/amorpro/simple-console",
+    "license": "",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+
+    }
+}
